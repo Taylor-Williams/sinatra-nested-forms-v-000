@@ -10,7 +10,7 @@ module FormsLab
     end
 
     get '/new' do
-      erb :pirates
+      erb :pirates/pirate
     end
 
     post '/show' do
