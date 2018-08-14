@@ -1,9 +1,21 @@
 <form class="new_matey" action="/show" method="post">
-  <p>Pirate Name:<input type="text" name="pirate_name" value=""></p>
-  <p><input type="text" name="" value=""></p>
-  <p><input type="text" name="" value=""></p>
-  <p><input type="text" name="" value=""></p>
-  <p><input type="text" name="" value=""></p>
-  <p><input type="text" name="" value=""></p>
-  <p><input type="text" name="" value=""></p>
+  <label>
+    <input type="text" name="pirate[name]">
+  </label>
+  <label>
+    <input type="text" name="pirate[weight]">
+  </label>
+  <label>
+    <input type="text" name="pirate[height]">
+  </label>
+  <label>
+    <input type="text" name="ship[][name]">
+  </label>
+  <label>
+    <input type="text" name="ship[][type]">
+  </label>
+  <label>
+    <input type="text" name="ship[][booty]">
+  </label>
+
 </form>
